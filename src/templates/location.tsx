@@ -61,6 +61,7 @@ export const config: TemplateConfig = {
       "dm_directoryParents.slug",
       "dm_directoryParents.meta",
       "dm_directoryParents.c_addressRegionDisplayName",
+      "c_cateringPhoneNumber",
     ],
     // The entity language profiles that documents will be generated for.
     localization: {
@@ -173,6 +174,7 @@ const Location: Template<TemplateRenderProps> = ({
     description,
     siteDomain,
     dm_directoryParents,
+    c_cateringPhoneNumber
   } = document;
 
   return (
@@ -188,7 +190,9 @@ const Location: Template<TemplateRenderProps> = ({
             <Details address={address} phone={mainPhone} services={services} />
             {hours && <Hours title={"Restaurant Hours"} hours={hours} />}
             {description && <About name={name} description={description} />}
+            {c_cateringPhoneNumber && (<div>Catering Phone Number: {c_cateringPhoneNumber} </div>)}
           </div>
+
         </div>
       </PageLayout>
       {/* This component displays a link to the entity that represents the given page in the Knowledge Graph*/}
