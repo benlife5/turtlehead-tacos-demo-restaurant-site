@@ -9,7 +9,7 @@
     "features": "sites-config/features.json",
     "plugins": [
       {
-        "pluginName": "Generator",
+        "pluginName": "PagesGenerator",
         "sourceFiles": [
           {
             "root": "dist/plugin",
@@ -17,17 +17,57 @@
           },
           {
             "root": "dist",
-            "pattern": "assets/{server,static,renderer}/**/*{.js,.css}"
+            "pattern": "assets/{server,static,renderer,render}/**/*{.js,.css}"
           }
         ],
         "event": "ON_PAGE_GENERATE",
-        "functionName": "Generate"
+        "functionName": "PagesGenerator"
+      },
+      {
+        "pluginName": "helloWorld3",
+        "event": "API",
+        "functionName": "helloWorld3",
+        "apiPath": "specialSlug300/:id",
+        "sourceFiles": [
+          {
+            "root": "dist",
+            "pattern": "assets/functions/helloWorld3.ts.*.*"
+          }
+        ]
+      },
+      {
+        "pluginName": "api/helloWorld1",
+        "event": "API",
+        "functionName": "helloWorld1",
+        "apiPath": "api/helloWorld1",
+        "sourceFiles": [
+          {
+            "root": "dist",
+            "pattern": "assets/functions/http/api/helloWorld1.ts.*.*"
+          }
+        ]
+      },
+      {
+        "pluginName": "helloWorld2",
+        "event": "API",
+        "functionName": "helloWorld2",
+        "apiPath": "abc/:def",
+        "sourceFiles": [
+          {
+            "root": "dist",
+            "pattern": "assets/functions/http/helloWorld2.ts.*.*"
+          }
+        ]
       }
     ]
   },
   "dependencies": {
     "installDepsCmd": "npm install",
-    "requiredFiles": ["package.json", "package-lock.json", ".npmrc"]
+    "requiredFiles": [
+      "package.json",
+      "package-lock.json",
+      ".npmrc"
+    ]
   },
   "buildArtifacts": {
     "buildCmd": "npm run build:local"
