@@ -117,19 +117,34 @@
         "_browser-ponyfill-3f55f54d.js"
       ]
     },
-    "src/functions/helloWorld3.ts": {
-      "file": "assets/functions//helloWorld3.ts.815a5c7a.js",
-      "src": "src/functions/helloWorld3.ts",
+    "src/functions/http/api/[id].ts": {
+      "file": "assets/abc/http/api/[id].68f1e5f1.js",
+      "src": "src/functions/http/api/[id].ts",
+      "isEntry": true
+    },
+    "src/functions/http/api/[userId]/profile.ts": {
+      "file": "assets/abc/http/api/[userId]/profile.187f1be3.js",
+      "src": "src/functions/http/api/[userId]/profile.ts",
       "isEntry": true
     },
     "src/functions/http/api/helloWorld1.ts": {
-      "file": "assets/functions//http/api/helloWorld1.ts.1c79f172.js",
+      "file": "assets/abc/http/api/helloWorld1.fc7e8935.js",
       "src": "src/functions/http/api/helloWorld1.ts",
       "isEntry": true
     },
     "src/functions/http/helloWorld2.ts": {
-      "file": "assets/functions//http/helloWorld2.ts.b3a3a726.js",
+      "file": "assets/abc/http/helloWorld2.5def7953.js",
       "src": "src/functions/http/helloWorld2.ts",
+      "isEntry": true
+    },
+    "src/functions/onPageGenerate/gen.ts": {
+      "file": "assets/abc/onPageGenerate/gen.6aebc952.js",
+      "src": "src/functions/onPageGenerate/gen.ts",
+      "isEntry": true
+    },
+    "src/functions/onUrlChange/update.ts": {
+      "file": "assets/abc/onUrlChange/update.28992a6b.js",
+      "src": "src/functions/onUrlChange/update.ts",
       "isEntry": true
     },
     "node_modules/@yext/pages/dist/common/src/template/internal/_server.js": {

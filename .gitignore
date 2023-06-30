@@ -2,6 +2,8 @@ node_modules/
 sites-rendered-output/
 localData/
 .yext
+.artifact-ouput/
+dist/
 sites-config/features.json
 functions/functionMetadata.json
 *.local

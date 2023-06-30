@@ -1,6 +1,6 @@
-import {FunctionConfig, FunctionArgument, FunctionReturnValue } from "@yext/pages";
+import {FunctionArgument, HttpFunctionResponse } from "@yext/pages";
 
-export default function helloWorld2(request : FunctionArgument) : FunctionReturnValue {
+export default function helloWorld2(request : FunctionArgument) : HttpFunctionResponse {
   const { pathParams, queryParams, site } = request
 
   return {
@@ -9,11 +9,3 @@ export default function helloWorld2(request : FunctionArgument) : FunctionReturn
     statusCode: 200
   }
 }
-
-export const config: FunctionConfig = {
-  name: "helloWorld2",
-};
-
-export const getPath = () => {
-  return 'abc/:def';
-};

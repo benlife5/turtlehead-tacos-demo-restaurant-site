@@ -3,8 +3,8 @@ import {FunctionArgument, HttpFunctionResponse} from "@yext/pages";
 export default function helloWorld1(request : FunctionArgument) : HttpFunctionResponse {
 
   return {
-    body: "Hello World 1\n" + YEXT_PUBLIC_FUNCTION_TEST_KEY,
-    headers: {a:"ghfj"},
+    body: request.pathParams.id,
+    headers: {a:"xyz"},
     statusCode: 200
   }
 }

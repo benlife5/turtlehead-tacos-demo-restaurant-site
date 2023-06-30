@@ -6,7 +6,8 @@
   "license": "BSD-3-Clause",
   "type": "module",
   "scripts": {
-    "dev": "yext pages build && yext pages generate-test-data && pages dev",
+    "dev": "pages dev",
+    "prod": "pages prod",
     "build:local": "pages build",
     "build": "yext pages build && yext pages generate-test-data && yext pages render",
     "build:serve": "npm run build && yext pages serve",

@@ -24,38 +24,72 @@
         "functionName": "PagesGenerator"
       },
       {
-        "pluginName": "helloWorld3",
+        "pluginName": "api/[id]",
         "event": "API",
-        "functionName": "helloWorld3",
-        "apiPath": "specialSlug300/:id",
+        "functionName": "default",
+        "apiPath": "api/{{id}}",
         "sourceFiles": [
           {
             "root": "dist",
-            "pattern": "assets/functions/helloWorld3.ts.*.*"
+            "pattern": "assets/functions/http/api/\\[id\\].*.*"
+          }
+        ]
+      },
+      {
+        "pluginName": "api/[userId]/profile",
+        "event": "API",
+        "functionName": "default",
+        "apiPath": "api/{{userId}}/profile",
+        "sourceFiles": [
+          {
+            "root": "dist",
+            "pattern": "assets/functions/http/api/\\[userId\\]/profile.*.*"
           }
         ]
       },
       {
         "pluginName": "api/helloWorld1",
         "event": "API",
-        "functionName": "helloWorld1",
+        "functionName": "default",
         "apiPath": "api/helloWorld1",
         "sourceFiles": [
           {
             "root": "dist",
-            "pattern": "assets/functions/http/api/helloWorld1.ts.*.*"
+            "pattern": "assets/functions/http/api/helloWorld1.*.*"
           }
         ]
       },
       {
         "pluginName": "helloWorld2",
         "event": "API",
-        "functionName": "helloWorld2",
-        "apiPath": "abc/:def",
+        "functionName": "default",
+        "apiPath": "helloWorld2",
         "sourceFiles": [
           {
             "root": "dist",
-            "pattern": "assets/functions/http/helloWorld2.ts.*.*"
+            "pattern": "assets/functions/http/helloWorld2.*.*"
+          }
+        ]
+      },
+      {
+        "pluginName": "gen",
+        "event": "ON_PAGE_GENERATE",
+        "functionName": "default",
+        "sourceFiles": [
+          {
+            "root": "dist",
+            "pattern": "assets/functions/onPageGenerate/gen.*.*"
+          }
+        ]
+      },
+      {
+        "pluginName": "update",
+        "event": "ON_URL_CHANGE",
+        "functionName": "default",
+        "sourceFiles": [
+          {
+            "root": "dist",
+            "pattern": "assets/functions/onUrlChange/update.*.*"
           }
         ]
       }
