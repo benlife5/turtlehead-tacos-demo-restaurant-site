@@ -24,72 +24,73 @@
         "functionName": "PagesGenerator"
       },
       {
-        "pluginName": "api/[id]",
+        "pluginName": "id-91043",
         "event": "API",
         "functionName": "default",
         "apiPath": "api/{{id}}",
         "sourceFiles": [
           {
-            "root": "dist",
-            "pattern": "assets/functions/http/api/\\[id\\].*.*"
+            "root": "dist/functions/id-91043",
+            "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "api/[userId]/profile",
+        "pluginName": "profile-67214",
         "event": "API",
         "functionName": "default",
         "apiPath": "api/{{userId}}/profile",
         "sourceFiles": [
           {
-            "root": "dist",
-            "pattern": "assets/functions/http/api/\\[userId\\]/profile.*.*"
+            "root": "dist/functions/profile-67214",
+            "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "api/helloWorld1",
+        "pluginName": "helloWorld-38172",
         "event": "API",
         "functionName": "default",
-        "apiPath": "api/helloWorld1",
+        "apiPath": "api/helloWorld",
         "sourceFiles": [
           {
-            "root": "dist",
-            "pattern": "assets/functions/http/api/helloWorld1.*.*"
+            "root": "dist/functions/helloWorld-38172",
+            "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "helloWorld2",
+        "pluginName": "id-69911",
         "event": "API",
         "functionName": "default",
-        "apiPath": "helloWorld2",
+        "apiPath": "api/id",
         "sourceFiles": [
           {
-            "root": "dist",
-            "pattern": "assets/functions/http/helloWorld2.*.*"
+            "root": "dist/functions/id-69911",
+            "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "gen",
-        "event": "ON_PAGE_GENERATE",
+        "pluginName": "helloWorld-88487",
+        "event": "API",
         "functionName": "default",
+        "apiPath": "helloWorld",
         "sourceFiles": [
           {
-            "root": "dist",
-            "pattern": "assets/functions/onPageGenerate/gen.*.*"
+            "root": "dist/functions/helloWorld-88487",
+            "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "update",
+        "pluginName": "helloWorld-19025",
         "event": "ON_URL_CHANGE",
         "functionName": "default",
         "sourceFiles": [
           {
-            "root": "dist",
-            "pattern": "assets/functions/onUrlChange/update.*.*"
+            "root": "dist/functions/helloWorld-19025",
+            "pattern": "*{.js,.ts}"
           }
         ]
       }
