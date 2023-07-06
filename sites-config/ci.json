@@ -36,13 +36,13 @@
         ]
       },
       {
-        "pluginName": "profile-67214",
+        "pluginName": "profile.1-62187",
         "event": "API",
         "functionName": "default",
-        "apiPath": "api/{{userId}}/profile",
+        "apiPath": "api/{{userId}}/profile.1",
         "sourceFiles": [
           {
-            "root": "dist/functions/profile-67214",
+            "root": "dist/functions/profile.1-62187",
             "pattern": "*{.js,.ts}"
           }
         ]
