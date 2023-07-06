@@ -24,72 +24,72 @@
         "functionName": "PagesGenerator"
       },
       {
-        "pluginName": "id-91043",
+        "pluginName": "id-38826",
         "event": "API",
         "functionName": "default",
         "apiPath": "api/{{id}}",
         "sourceFiles": [
           {
-            "root": "dist/functions/id-91043",
+            "root": "dist/functions/id-38826",
             "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "profile.1-62187",
+        "pluginName": "profile.1-18088",
         "event": "API",
         "functionName": "default",
         "apiPath": "api/{{userId}}/profile.1",
         "sourceFiles": [
           {
-            "root": "dist/functions/profile.1-62187",
+            "root": "dist/functions/profile.1-18088",
             "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "helloWorld-38172",
+        "pluginName": "helloWorld-29361",
         "event": "API",
         "functionName": "default",
         "apiPath": "api/helloWorld",
         "sourceFiles": [
           {
-            "root": "dist/functions/helloWorld-38172",
+            "root": "dist/functions/helloWorld-29361",
             "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "id-69911",
+        "pluginName": "id-84874",
         "event": "API",
         "functionName": "default",
         "apiPath": "api/id",
         "sourceFiles": [
           {
-            "root": "dist/functions/id-69911",
+            "root": "dist/functions/id-84874",
             "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "helloWorld-88487",
+        "pluginName": "helloWorld-22074",
         "event": "API",
         "functionName": "default",
         "apiPath": "helloWorld",
         "sourceFiles": [
           {
-            "root": "dist/functions/helloWorld-88487",
+            "root": "dist/functions/helloWorld-22074",
             "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "helloWorld-19025",
+        "pluginName": "helloWorld-79138",
         "event": "ON_URL_CHANGE",
         "functionName": "default",
         "sourceFiles": [
           {
-            "root": "dist/functions/helloWorld-19025",
+            "root": "dist/functions/helloWorld-79138",
             "pattern": "*{.js,.ts}"
           }
         ]
