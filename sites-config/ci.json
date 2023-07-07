@@ -104,7 +104,7 @@
     ]
   },
   "buildArtifacts": {
-    "buildCmd": "pages build"
+    "buildCmd": "npm run build:local"
   },
   "livePreview": {
     "serveSetupCmd": ":"
