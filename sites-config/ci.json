@@ -72,6 +72,17 @@
         ]
       },
       {
+        "pluginName": "onGenerate-81459",
+        "event": "ON_PAGE_GENERATE",
+        "functionName": "default",
+        "sourceFiles": [
+          {
+            "root": "dist/functions/onGenerate-81459",
+            "pattern": "*{.js,.ts}"
+          }
+        ]
+      },
+      {
         "pluginName": "onChange-99663",
         "event": "ON_URL_CHANGE",
         "functionName": "default",
@@ -93,7 +104,7 @@
     ]
   },
   "buildArtifacts": {
-    "buildCmd": "pages build"
+    "buildCmd": "pages build || npm run build:local"
   },
   "livePreview": {
     "serveSetupCmd": ":"
