@@ -11,3 +11,4 @@ functions/functionMetadata.json
 package-lock.json
 
 .DS_Store
+old-package.json

@@ -36,13 +36,13 @@
         ]
       },
       {
-        "pluginName": "profile.1-18088",
+        "pluginName": "profile-41691",
         "event": "API",
         "functionName": "default",
-        "apiPath": "api/{{userId}}/profile.1",
+        "apiPath": "api/{{userId}}/profile",
         "sourceFiles": [
           {
-            "root": "dist/functions/profile.1-18088",
+            "root": "dist/functions/profile-41691",
             "pattern": "*{.js,.ts}"
           }
         ]
@@ -60,18 +60,6 @@
         ]
       },
       {
-        "pluginName": "id-84874",
-        "event": "API",
-        "functionName": "default",
-        "apiPath": "api/id",
-        "sourceFiles": [
-          {
-            "root": "dist/functions/id-84874",
-            "pattern": "*{.js,.ts}"
-          }
-        ]
-      },
-      {
         "pluginName": "helloWorld-22074",
         "event": "API",
         "functionName": "default",
@@ -84,12 +72,12 @@
         ]
       },
       {
-        "pluginName": "helloWorld-79138",
+        "pluginName": "onChange-99663",
         "event": "ON_URL_CHANGE",
         "functionName": "default",
         "sourceFiles": [
           {
-            "root": "dist/functions/helloWorld-79138",
+            "root": "dist/functions/onChange-99663",
             "pattern": "*{.js,.ts}"
           }
         ]
@@ -105,7 +93,7 @@
     ]
   },
   "buildArtifacts": {
-    "buildCmd": "npm run build:local"
+    "buildCmd": "pages build"
   },
   "livePreview": {
     "serveSetupCmd": ":"
