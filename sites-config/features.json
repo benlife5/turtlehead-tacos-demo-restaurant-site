@@ -22,12 +22,7 @@
       "name": "location",
       "streamId": "location-stream",
       "templateType": "JS",
-      "entityPageSet": {
-        "onPageGenerate": {
-          "pluginName": "PagesGenerator",
-          "functionName": "PagesGenerator"
-        }
-      }
+      "entityPageSet": {}
     },
     {
       "name": "robots",
