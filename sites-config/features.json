@@ -22,7 +22,12 @@
       "name": "location",
       "streamId": "location-stream",
       "templateType": "JS",
-      "entityPageSet": {}
+      "entityPageSet": {
+        "onPageGenerate": {
+          "pluginName": "PagesGenerator",
+          "functionName": "PagesGenerator"
+        }
+      }
     },
     {
       "name": "robots",
@@ -35,13 +40,23 @@
       "name": "root",
       "streamId": "root-stream",
       "templateType": "JS",
-      "entityPageSet": {}
+      "entityPageSet": {
+        "onPageGenerate": {
+          "pluginName": "PagesGenerator",
+          "functionName": "PagesGenerator"
+        }
+      }
     },
     {
       "name": "state",
       "streamId": "state-stream",
       "templateType": "JS",
-      "entityPageSet": {}
+      "entityPageSet": {
+        "onPageGenerate": {
+          "pluginName": "PagesGenerator",
+          "functionName": "PagesGenerator"
+        }
+      }
     },
     {
       "name": "turtlehead-tacos",
