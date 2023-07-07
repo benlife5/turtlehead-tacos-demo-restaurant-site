@@ -4,7 +4,6 @@ localData/
 .yext
 .artifact-output/
 dist/
-sites-config/features.json
 functions/functionMetadata.json
 *.local
 .env
