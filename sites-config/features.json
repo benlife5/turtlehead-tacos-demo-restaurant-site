@@ -1,48 +1,43 @@
 {
   "features": [
     {
+      "name": "404",
+      "templateType": "JS",
+      "staticPage": {}
+    },
+    {
       "name": "city",
       "streamId": "city-stream",
       "templateType": "JS",
-      "entityPageSet": {
-        "onPageGenerate": {
-          "pluginName": "PagesGenerator",
-          "functionName": "PagesGenerator"
-        }
-      }
+      "entityPageSet": {}
     },
     {
       "name": "location",
       "streamId": "location-stream",
       "templateType": "JS",
-      "entityPageSet": {
-        "onPageGenerate": {
-          "pluginName": "onGenerate-81459",
-          "functionName": "default"
-        }
-      }
+      "entityPageSet": {}
+    },
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {}
     },
     {
       "name": "root",
       "streamId": "root-stream",
       "templateType": "JS",
-      "entityPageSet": {
-        "onPageGenerate": {
-          "pluginName": "PagesGenerator",
-          "functionName": "PagesGenerator"
-        }
-      }
+      "entityPageSet": {}
     },
     {
       "name": "state",
       "streamId": "state-stream",
       "templateType": "JS",
-      "entityPageSet": {
-        "onPageGenerate": {
-          "pluginName": "PagesGenerator",
-          "functionName": "PagesGenerator"
-        }
-      }
+      "entityPageSet": {}
+    },
+    {
+      "name": "home-page",
+      "templateType": "JS",
+      "staticPage": {}
     }
   ],
   "streams": [
