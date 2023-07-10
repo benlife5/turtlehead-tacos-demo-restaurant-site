@@ -72,23 +72,23 @@
         ]
       },
       {
-        "pluginName": "onGenerate-81459",
-        "event": "ON_PAGE_GENERATE",
+        "pluginName": "onChange1-90086",
+        "event": "ON_URL_CHANGE",
         "functionName": "default",
         "sourceFiles": [
           {
-            "root": "dist/functions/onGenerate-81459",
+            "root": "dist/functions/onChange1-90086",
             "pattern": "*{.js,.ts}"
           }
         ]
       },
       {
-        "pluginName": "onChange-99663",
+        "pluginName": "onChange2-60295",
         "event": "ON_URL_CHANGE",
         "functionName": "default",
         "sourceFiles": [
           {
-            "root": "dist/functions/onChange-99663",
+            "root": "dist/functions/onChange2-60295",
             "pattern": "*{.js,.ts}"
           }
         ]
