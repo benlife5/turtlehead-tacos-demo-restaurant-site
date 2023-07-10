@@ -46,6 +46,7 @@ export const config: TemplateConfig = {
       primary: false,
     },
   },
+  onUrlChange: "onChange1"
 };
 
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
