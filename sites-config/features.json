@@ -15,11 +15,11 @@
       "name": "location",
       "streamId": "location-stream",
       "templateType": "JS",
-      "entityPageSet": {},
       "onUrlChange": {
-        "pluginName": "onChange1-90086",
+        "pluginName": "onChange2-60295",
         "functionName": "default"
-      }
+      },
+      "entityPageSet": {}
     },
     {
       "name": "robots",
