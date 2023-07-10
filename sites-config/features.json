@@ -13,8 +13,8 @@
       "templateType": "JS",
       "entityPageSet": {
         "onPageGenerate": {
-          "pluginName": "onGenerate-81459",
-          "functionName": "default"
+          "pluginName": "PagesGenerator",
+          "functionName": "PagesGenerator"
         }
       }
     },
@@ -24,8 +24,8 @@
       "templateType": "JS",
       "entityPageSet": {
         "onPageGenerate": {
-          "pluginName": "PagesGenerator",
-          "functionName": "PagesGenerator"
+          "pluginName": "onGenerate-81459",
+          "functionName": "default"
         }
       }
     },

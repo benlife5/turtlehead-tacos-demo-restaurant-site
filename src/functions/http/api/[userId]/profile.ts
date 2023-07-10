@@ -1,6 +1,6 @@
-import {FunctionArgument, HttpFunctionResponse} from "@yext/pages";
+import {HttpFunctionArgument, HttpFunctionResponse} from "@yext/pages";
 
-export default function userProfile(request : FunctionArgument) : HttpFunctionResponse {
+export default function userProfile(request : HttpFunctionArgument) : HttpFunctionResponse {
 
   return {
     body: "User " + request.pathParams.userId,

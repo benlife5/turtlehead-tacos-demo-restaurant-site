@@ -1,6 +1,6 @@
-import {FunctionArgument, HttpFunctionResponse } from "@yext/pages";
+import {HttpFunctionArgument, HttpFunctionResponse } from "@yext/pages";
 
-export default function helloWorld2(request : FunctionArgument) : HttpFunctionResponse {
+export default function helloWorld2(request : HttpFunctionArgument) : HttpFunctionResponse {
   const { pathParams, queryParams, site } = request
 
   return {

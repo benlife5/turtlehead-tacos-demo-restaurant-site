@@ -1,6 +1,6 @@
-import {FunctionArgument, OnUrlChangeResponse } from "@yext/pages";
+import {OnUrlChangeArgument, OnUrlChangeResponse } from "@yext/pages";
 
-export default function onChange(request : FunctionArgument) : OnUrlChangeResponse {
-  const { pathParams, queryParams, site } = request
+export default function onChange(request : OnUrlChangeArgument) : OnUrlChangeResponse {
+  const { site } = request
   console.log("OnUrlChange Running")
 }
