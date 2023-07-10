@@ -71,8 +71,7 @@ export const config: TemplateConfig = {
     transform: {
       replaceOptionValuesWithDisplayNames: ["paymentOptions"],
     },
-  },
-  onUrlChange: "onChange2"
+  }
 };
 
 /**

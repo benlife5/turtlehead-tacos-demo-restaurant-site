@@ -15,10 +15,6 @@
       "name": "location",
       "streamId": "location-stream",
       "templateType": "JS",
-      "onUrlChange": {
-        "pluginName": "onChange2-60295",
-        "functionName": "default"
-      },
       "entityPageSet": {}
     },
     {
@@ -36,10 +32,6 @@
       "name": "state",
       "streamId": "state-stream",
       "templateType": "JS",
-      "onUrlChange": {
-        "pluginName": "onChange1-90086",
-        "functionName": "default"
-      },
       "entityPageSet": {}
     },
     {

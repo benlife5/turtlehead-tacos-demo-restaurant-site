@@ -45,8 +45,7 @@ export const config: TemplateConfig = {
       locales: ["en"],
       primary: false,
     },
-  },
-  onUrlChange: "onChange1"
+  }
 };
 
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
