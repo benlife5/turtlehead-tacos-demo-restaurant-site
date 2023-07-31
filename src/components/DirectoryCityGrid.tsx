@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Address } from "@yext/pages/components";
+// import { Address } from "@yext/pages/components";
 import { formatPhoneNumber } from "react-phone-number-input";
 import { DirectoryParent } from "../types/DirectoryParent";
 import { DirectoryChild } from "../types/DirectoryChild";
@@ -42,7 +42,7 @@ const DirectoryCityGrid = ({
           </a>
         </h2>
         <div className="m-1 border"></div>
-        <Address address={child.address}></Address>
+        {/* <Address address={child.address}></Address> */}
         <div className="space-x-3">
           <span>&#128222;</span>
           <span>{formatPhoneNumber(child.mainPhone)}</span>

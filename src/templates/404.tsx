@@ -18,7 +18,7 @@ export const config: TemplateConfig = {
 };
 
 export const getPath: GetPath<TemplateProps> = () => {
-  return `404.html`;
+  return `404∂ƒ.html`;
 };
 
 export const getHeadConfig: GetHeadConfig<

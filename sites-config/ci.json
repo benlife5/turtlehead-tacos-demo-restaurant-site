@@ -24,6 +24,30 @@
         "functionName": "PagesGenerator"
       },
       {
+        "pluginName": "helloWorld-22074",
+        "event": "API",
+        "functionName": "default",
+        "apiPath": "helloWorld",
+        "sourceFiles": [
+          {
+            "root": "dist/functions/helloWorld-22074",
+            "pattern": "*{.js,.ts}"
+          }
+        ]
+      },
+      {
+        "pluginName": "helloWorld-29361",
+        "event": "API",
+        "functionName": "default",
+        "apiPath": "api/helloWorld",
+        "sourceFiles": [
+          {
+            "root": "dist/functions/helloWorld-29361",
+            "pattern": "*{.js,.ts}"
+          }
+        ]
+      },
+      {
         "pluginName": "id-38826",
         "event": "API",
         "functionName": "default",
@@ -46,52 +70,6 @@
             "pattern": "*{.js,.ts}"
           }
         ]
-      },
-      {
-        "pluginName": "helloWorld-29361",
-        "event": "API",
-        "functionName": "default",
-        "apiPath": "api/helloWorld",
-        "sourceFiles": [
-          {
-            "root": "dist/functions/helloWorld-29361",
-            "pattern": "*{.js,.ts}"
-          }
-        ]
-      },
-      {
-        "pluginName": "helloWorld-22074",
-        "event": "API",
-        "functionName": "default",
-        "apiPath": "helloWorld",
-        "sourceFiles": [
-          {
-            "root": "dist/functions/helloWorld-22074",
-            "pattern": "*{.js,.ts}"
-          }
-        ]
-      },
-      {
-        "pluginName": "onChange1-90086",
-        "event": "ON_URL_CHANGE",
-        "functionName": "default",
-        "sourceFiles": [
-          {
-            "root": "dist/functions/onChange1-90086",
-            "pattern": "*{.js,.ts}"
-          }
-        ]
-      },
-      {
-        "pluginName": "onChange2-60295",
-        "event": "ON_URL_CHANGE",
-        "functionName": "default",
-        "sourceFiles": [
-          {
-            "root": "dist/functions/onChange2-60295",
-            "pattern": "*{.js,.ts}"
-          }
-        ]
       }
     ]
   },
@@ -104,7 +82,7 @@
     ]
   },
   "buildArtifacts": {
-    "buildCmd": "$(npm bin)/pages build"
+    "buildCmd": "npx pages build"
   },
   "livePreview": {
     "serveSetupCmd": ":"

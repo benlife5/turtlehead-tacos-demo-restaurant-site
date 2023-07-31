@@ -60,13 +60,11 @@ export const config: TemplateConfig = {
       "dm_directoryParents.name",
       "dm_directoryParents.slug",
       "dm_directoryParents.meta",
-      "dm_directoryParents.c_addressRegionDisplayName",
-      "c_cateringPhoneNumber",
-    ],
+      "dm_directoryParents.c_addressRegionDisplayName"
+        ],
     // The entity language profiles that documents will be generated for.
     localization: {
       locales: ["en"],
-      primary: false,
     },
     transform: {
       replaceOptionValuesWithDisplayNames: ["paymentOptions"],
@@ -82,10 +80,10 @@ export const config: TemplateConfig = {
  */
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
   return document.slug
-    ? document.slug
+    ? document.slug + "/a"
     : `${document.locale}/${document.address.region}/${document.address.city}/${
         document.address.line1
-      }-${document.id.toString()}`;
+      }-${document.id.toString()}/b`;
 };
 
 /**
@@ -177,6 +175,8 @@ const Location: Template<TemplateRenderProps> = ({
     c_cateringPhoneNumber
   } = document;
 
+  address.city = address.city.split("").reverse().join("")
+  
   return (
     <>
       <PageLayout>
